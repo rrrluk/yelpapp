@@ -1,0 +1,23 @@
+{
+  "name": "yelpapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rrrluk@github.com/rrrluk/yelpapp.git"
+  },
+  "author": "Pertti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrrluk/yelpapp/issues"
+  },
+  "homepage": "https://github.com/rrrluk/yelpapp#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
