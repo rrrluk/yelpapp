@@ -1,6 +1,6 @@
-var express = require("express");
-var app = express();
-var bodyParser = require("body-parser")
+const express = require("express");
+const app = express();
+const bodyParser = require("body-parser")
 
 app.use(bodyParser.urlencoded({
     extended: true
@@ -10,15 +10,15 @@ app.use(bodyParser.urlencoded({
 var appPort = 8006;
 var campgrounds = [{
         name: "Salmon Creek",
-        image: "https://pixabay.com/get/e83db50a2ff5083ed1584d05fb1d4e97e07ee3d21cac104496f1c07aa6edb2bb_340.jpg"
+        image: "https://cdn.pixabay.com/photo/2015/07/10/17/24/night-839807__340.jpg"
     },
     {
         name: "Whateva Mountain",
-        image: "https://pixabay.com/get/e83db40e28fd033ed1584d05fb1d4e97e07ee3d21cac104496f1c07aa6edb2bb_340.jpg"
+        image: "https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201__340.jpg"
     },
     {
         name: "Hipi Meadow",
-        image: "https://pixabay.com/get/e83db50a2ff5083ed1584d05fb1d4e97e07ee3d21cac104496f1c07aa6edb2bb_340.jpg"
+        image: "https://cdn.pixabay.com/photo/2016/11/21/14/31/vw-bus-1845719__340.jpg"
     },
 ];
 
